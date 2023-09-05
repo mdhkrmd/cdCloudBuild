@@ -15,6 +15,6 @@ EXPOSE 3000
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "3000"]
 
 # DEPLOY TO CLOUD RUN:
-# docker build -t tryBuild .
-# docker tag tryBuild gcr.io/skinnie-project/tryBuild
-# docker push gcr.io/skinnie-project/tryBuild
+# docker build -t trybuild .
+# docker tag trybuild gcr.io/skinnie-project/trybuild
+# docker push gcr.io/skinnie-project/trybuild
