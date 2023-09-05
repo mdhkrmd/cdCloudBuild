@@ -15,7 +15,7 @@ steps:
     args:
       - run
       - deploy
-      - tryCBuild
+      - tryBuild
       - '--image'
       - 'gcr.io/$PROJECT_ID/tryBuild:$COMMIT_SHA'
       - '--region'
