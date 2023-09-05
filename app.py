@@ -8,7 +8,7 @@ app = FastAPI()
 # we use neither path nor query parameters in this endpoint
 @app.get('/')
 async def greeting():
-    return 'Hello World!'
+    return 'Hello Andhika, ini percobaan pertama menggunakan cloud build deploy secara otomatis'
   
 # run the app on defined host and port
 if __name__ == '__main__':
